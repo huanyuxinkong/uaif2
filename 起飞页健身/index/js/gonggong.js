@@ -2,7 +2,7 @@ window.onload = function(){
     tiao(".lastTOP")
     function tiao(dings){
         let ding = document.querySelector(dings)
-        console.log()
+        console.log(1)
 		window.onscroll = function(){
 			let windowtop = document.documentElement.scrollTop //获取现在滚动条到顶部距离
             if(windowtop >= window.innerHeight){
