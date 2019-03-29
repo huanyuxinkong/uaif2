@@ -1,0 +1,313 @@
+
+*{
+	margin: 0;
+	padding: 0;
+    list-style: none;
+    /* font-size: 14px; */
+    /* color: #000; */
+    /* font-family: 微软雅黑; */
+}
+i{
+	padding: 0;
+	margin: 0;
+	font-style: normal;
+}
+a{
+	text-decoration: none;
+}
+img{
+    height: auto;
+}
+/* 背景图 */
+.background_image{
+    width: 100%;
+    height: auto;
+    /* background-color: rgba(255,255,255,0);
+    background-image: url(../img/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: 0 0%;
+    padding-top: 138px; */
+}
+/* 头部二维码logo选项开始 */
+.head_top{
+    width: 100%;
+    height: 138px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 66;
+}
+.head_auto{
+    width: 100%;
+    padding: 0 40px;
+    box-sizing: border-box;
+    height: 90px;
+}
+.head_to_bx{
+    height: 90px;
+    margin: 0 auto;
+    width: 100%;
+    
+
+    max-width: 1190px;
+}
+.hd_left{
+    width: auto;
+    height: 90px;
+    float: left;
+    /* padding-right: 10px; */
+    padding: 25px 0;
+    box-sizing: border-box;
+}
+
+.hd_left .left_img{
+    max-height: 40px;
+    width: 241px;
+}
+.hd_left a{
+    max-height: 40px;
+    display: block;
+}
+.hd_left .left_img a img{
+    max-height: 40px;
+    width: 241px;
+}
+.hd_right{
+    width: 170px;
+    height: 90px;
+    float: right;
+    
+}
+.right_img{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.erwei{
+    display: block;
+    width: 70px;
+    height: 70px;
+    float: right;
+}
+.option{
+    width: 100%;
+    height: 48px;
+    background: #000;
+}
+.option_auto{
+    width: 100%;
+    height: 100%;
+    padding: 0 40px ;
+    box-sizing: border-box;
+
+}
+.nav_box{
+    width: 1190px;
+    height: 48px;
+    margin: auto;
+}
+.nav_bigbox{
+    padding-right: 8px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.nav_bigbox li{
+    /* display: block; */
+    float: left;
+    height: 100%;
+    
+    line-height: 48px;
+   
+}
+.nav_bigbox li a{
+    display: block;
+    padding: 0 36px;
+    height: 100%;
+    color: #c4c4c4;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.nav_bigbox li:nth-child(2) a{
+    color: #fff;
+}
+.nav_bigbox li:hover a{
+    color: #fff;
+}
+/* 头部二维码logo选项结束 */
+/* 置顶开始 */
+.lastTOP{
+    bottom: 25px;
+    width: 35px;
+    height: 35px;
+    right: 15px;
+    position: fixed;
+    background-color: #5b5b5b;
+    z-index: 999;
+    text-align: center;
+    line-height: 35px;
+}
+.lastTOP i{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+/* 置顶结束 */
+/* 主体开始 */
+.ddd{
+    width: 100%;
+    height: 138px;
+}
+.bosy{
+    width: 100%;
+    height: auto;
+    background-color: rgba(255,255,255,0);
+    background-image: url(../img/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: 0 0%;
+    /* padding-top: 138px; */
+}
+
+.main{
+width: 100%;
+height: auto;
+
+
+max-width: 100%;
+min-height: 1px;
+}
+.mainbox{
+    /* width: 100%; */
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 45px 100px;
+    box-sizing: border-box;
+}
+.main_body{
+    width: 100%;
+    height: 1169px;
+    border-top: 1px solid rgba(221,221,221,1);
+    border-bottom: 1px solid rgba(221,221,221,1);
+    border-left: 1px solid rgba(221,221,221,1);
+    border-right: 1px solid rgba(221,221,221,1);
+    background: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+.main_bdbx{
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+}
+.main_tito{
+    max-width: 1100px;
+    height: 97px;
+    margin-bottom: 0;
+    padding-top: 1px;
+    padding-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.main_tito_box{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.class_title{
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+}
+.class_wenzi{
+    font-family: 微软雅黑;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    color: #666666;
+    display: block;
+}
+.class_eng{
+    font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    color: #999999;
+    display: block;
+    padding: 10px 0 10px 0;
+    /* vertical-align: bottom; */
+}
+.main_choice{
+    width: 100%;
+    height: 910px;
+}
+.main_choice_box{
+    width: 33.333%;
+    height: 288px;
+    float: left;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.main_choice_box_bd{
+    width: 100%;
+    height: 100%;
+}
+.main_choice_box_bd_img{
+    width: 100%;
+    height: 168px;
+    display: block;
+    overflow: hidden;
+    
+}
+.main_choice_box_bd_img img{
+    width: 100%;
+    height: 100%;
+    /* -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1); */
+    background-position: center center;
+    transition: all 0.3s ease-in-out;
+}
+.main_choice_wenze{
+    width: 100%;
+    height: 90px;
+    padding: 0 7px 49px;
+    box-sizing: border-box;
+}
+.main_choice_wenze_ti{
+    width: 100%;
+    height: 28px;
+    font-size: 15px;
+    font-family: 微软雅黑;
+    font-weight: normal;
+    padding-bottom: 8px;
+    text-align: center;
+    /* color: #828282; */
+    color: #b7b7b7;
+}
+.main_choice_wenze_eng{
+    width: 100%;
+    height: 15px;
+    color: #999999;
+    font-size: 13px;
+    font-family: Raleway;
+    text-align: center;
+}
+.main_choice_box_bd:hover .main_choice_box_bd_img img{
+    transform: scale(1.1,1.1);
+}
+.main_choice_box_bd:hover .main_choice_wenze_ti{
+    color: #828282;
+}
+/* 主体结束 */

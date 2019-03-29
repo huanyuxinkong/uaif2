@@ -1,0 +1,426 @@
+
+*{
+	margin: 0;
+	padding: 0;
+    list-style: none;
+    /* font-size: 14px; */
+    /* color: #000; */
+    /* font-family: 微软雅黑; */
+}
+i{
+	padding: 0;
+	margin: 0;
+	font-style: normal;
+}
+a{
+	text-decoration: none;
+}
+img{
+    height: auto;
+}
+/* 背景图 */
+.background_image{
+    width: 100%;
+    height: auto;
+    /* background-color: rgba(255,255,255,0);
+    background-image: url(../img/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: 0 0%;
+    padding-top: 138px; */
+}
+/* 头部二维码logo选项开始 */
+.head_top{
+    width: 100%;
+    height: 138px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 66;
+}
+.head_auto{
+    width: 100%;
+    padding: 0 40px;
+    box-sizing: border-box;
+    height: 90px;
+}
+.head_to_bx{
+    height: 90px;
+    margin: 0 auto;
+    width: 100%;
+    
+
+    max-width: 1190px;
+}
+.hd_left{
+    width: auto;
+    height: 90px;
+    float: left;
+    /* padding-right: 10px; */
+    padding: 25px 0;
+    box-sizing: border-box;
+}
+
+.hd_left .left_img{
+    max-height: 40px;
+    width: 241px;
+}
+.hd_left a{
+    max-height: 40px;
+    display: block;
+}
+.hd_left .left_img a img{
+    max-height: 40px;
+    width: 241px;
+}
+.hd_right{
+    width: 170px;
+    height: 90px;
+    float: right;
+    
+}
+.right_img{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.erwei{
+    display: block;
+    width: 70px;
+    height: 70px;
+    float: right;
+}
+.option{
+    width: 100%;
+    height: 48px;
+    background: #000;
+}
+.option_auto{
+    width: 100%;
+    height: 100%;
+    padding: 0 40px ;
+    box-sizing: border-box;
+
+}
+.nav_box{
+    width: 1190px;
+    height: 48px;
+    margin: auto;
+}
+.nav_bigbox{
+    padding-right: 8px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.nav_bigbox li{
+    /* display: block; */
+    float: left;
+    height: 100%;
+    
+    line-height: 48px;
+   
+}
+.nav_bigbox li a{
+    display: block;
+    padding: 0 36px;
+    height: 100%;
+    color: #c4c4c4;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.nav_bigbox li:nth-child(6) a{
+    color: #fff;
+}
+.nav_bigbox li:hover a{
+    color: #fff;
+}
+/* 头部二维码logo选项结束 */
+/* 置顶开始 */
+.lastTOP{
+    bottom: 25px;
+    width: 35px;
+    height: 35px;
+    right: 15px;
+    position: fixed;
+    background-color: #5b5b5b;
+    z-index: 999;
+    text-align: center;
+    line-height: 35px;
+}
+.lastTOP i{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+/* 置顶结束 */
+/* 主体开始 */
+.ddd{
+    width: 100%;
+    height: 138px;
+}
+.bosy{
+    width: 100%;
+    height: auto;
+    background-color: rgba(255,255,255,0);
+    background-image: url(../img/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: 0 0%;
+    /* padding-top: 138px; */
+}
+
+.main{
+width: 100%;
+height: auto;
+
+
+max-width: 100%;
+min-height: 1px;
+}
+.mainbox{
+    /* width: 100%; */
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 45px 100px;
+    box-sizing: border-box;
+}
+.main_body{
+    width: 100%;
+    height: 1169px;
+    border-top: 1px solid rgba(221,221,221,1);
+    border-bottom: 1px solid rgba(221,221,221,1);
+    border-left: 1px solid rgba(221,221,221,1);
+    border-right: 1px solid rgba(221,221,221,1);
+    background: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+.main_bdbx{
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.main_choice{
+    width: 100%;
+    height: 910px;
+}
+/* 邮箱开始 */
+.mailbox{
+    width: 100%;
+    height: 414px;
+    padding-top: 80px;
+    box-sizing: border-box;
+    background: #fff;
+}
+.mailbox_bigbox{
+    width: 100%;
+    height: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 45px;
+    box-sizing: border-box;
+}
+.mailbox_box{
+    width: 100%;
+    height: 294px;
+}
+.mailbox_left{
+    float: left;
+    width: 25%;
+    height: auto;
+}
+.mailbox_left_tp{
+    padding-left: 4px;
+    line-height: 32px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+.mailbox_li{
+   
+    color: rgb(136, 136, 136);
+    font-size: 13px;
+    width: 100%;
+    height: 32px;
+    font-family: 微软雅黑;
+    /* line-height: 20px; */
+}
+.mailbox_left_tp .mailbox_title{
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color:#696969;
+}
+.mailbox_left_bottom{
+    padding-top: 18px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+.mailbox_left_bottom_ul{
+    width: 100%;
+    height: 24px;
+}
+.mailbox_left_bottom_li{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url(../img/qq.png);
+    background-repeat: no-repeat;
+    
+}
+.mailbox_one{
+    background-position: -48px 0;
+    background-position-y: -72px ;
+}
+.mailbox_two{
+    background-position: -24px 0;
+    background-position-y: -72px ;
+}
+.mailbox_three{
+    background-position: 0 0;
+    background-position-y: -72px;
+}
+.mailbox_fore{
+    background-position: -96px 0;
+    background-position-y: -72px;
+}
+.mailbox_right{
+    width: 75%;
+    height: auto;
+    float: left;
+}
+.mailbox_right_box_top{
+    width: 100%;
+    height: auto;
+    padding-top: 4px;
+    box-sizing: border-box;
+}
+.mailbox_right_box_top_bx{
+    width: 100%;
+    height: auto;
+}
+.mailbox_right_box_top_bx_li{
+    width: 100%;
+    height: 43px;
+    max-width: 100%;
+    
+}
+.inpuut_left{
+    width: 49.9%;
+    height: auto;
+    padding: 0 10px 10px 0;
+    box-sizing: border-box;
+    float: left;
+}
+.input_box{
+    width: 100%;
+    height: auto;
+
+}
+.input_box input{
+    font-family: 微软雅黑;
+    border-top: 0 solid rgb(224, 224, 224);
+    border-left: 0 solid rgb(224, 224, 224);
+    border-right: 0 solid rgb(224, 224, 224);
+    border-bottom: 1px solid rgb(224, 224, 224);
+    color: rgb(136, 136, 136);
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    padding-left: 5px;
+    outline: none;
+    text-align: left;
+    margin-bottom: 3px;
+}
+.mailbox_sec{
+    width: 100%;
+    height: auto;
+    min-height: 65px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.input_xx{
+    width: 100%;
+    min-height: 62px;
+}
+.mailbox_right_box_bottom_sss{
+    width: 100%;
+    height: auto;
+}
+.input_xxse{
+    width: 100%;
+    min-height: 62px;
+}
+.input_xxse textarea{
+    font-family: 微软雅黑;
+    border-top: 0 solid rgb(224, 224, 224);
+    border-left: 0 solid rgb(224, 224, 224);
+    border-right: 0 solid rgb(224, 224, 224);
+    border-bottom: 1px solid rgb(224, 224, 224);
+    color: rgb(136, 136, 136);
+    width: 100%;
+    min-height: 62px;
+    height: auto;
+    font-size: 14px;
+    padding-left: 5px;
+    outline: none;
+    text-align: left;
+    margin-bottom: 3px;
+}
+.mailbox_right_box_mid{
+    margin: 10px 0;
+    width: 100%;
+    height: 32px;
+}
+.mailbox_right_box_mid_box{
+    width: 100%;
+    height: 100%;
+}
+.mailbox_right_box_mid_box input{
+    width: 100px;
+    height: 100%;
+    background: #595959;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    border: 0;
+    float: left;
+}
+.mailbox_right_box_mid_box input:hover{
+    opacity: 0.8;
+}
+.mailbox_right_box_bottom{
+    width: 100%;
+    height: 73px;
+    padding-top: 32px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+.mailbox_right_box_bottom_bx{
+    width: 100%;
+    height: 100%;
+}
+.mailbox_right_box_bottom_bx .strong{
+    font-family: "微软雅黑";
+    color: #808080;
+    font-size: 13px;
+    font-weight: 700;
+}
+.mailbox_right_box_bottom_bx span{
+    font-family: "微软雅黑";
+    color: #808080;
+    font-size: 13px;
+}
+/* 邮箱结束 */
+/* 主体结束 */
